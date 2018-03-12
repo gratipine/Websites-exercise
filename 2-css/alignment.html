@@ -7,16 +7,33 @@
         <meta name= "viewport" content = "width=device-width, initial-scale = 1" />
         
         <style type = "text/css">
-            
+            p {
+                text-align: right;
+            }
+
+            div{
+                width:300px;
+                height:100px;
+                background-color: brown;
+            }
+
+            .centered {
+                text-align:center;
+            }
+
+            .justified{
+                text-align:justify;
+            }
         </style>
     </head>
 
     <body>
-        <p class ="bold">This is text! Weee</p>
-        <p class ="italic">This is text! Weee</p>
-        <p class ="italic">This is text! Weee <span class = "bold">bold and italic</span></p>
-        <p class ="underlined">This is text! Weee</p>
-        <a href = "">Empty link</a>
-        <p class ="big">This is some big text.</p>
+        <div>
+            <p>This is text! Weee</p>
+            <p class = "centered">This is centered text.</p>
+            <p class = "justified">This is some justification. This is some justification. This is some justification. This is some justification.
+                    This is some justification.This is some justification.This is some justification.
+            </p>
+        </div>
     </body>
 </html>
