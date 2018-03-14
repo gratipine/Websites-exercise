@@ -9,93 +9,120 @@
         <style type = "text/css">
 
         body{
-            margin: 0 0;
-            padding:0 0;
+            margin:0;
+            padding:0;
+            font-family:Helvetica, Arial, sans-serif;
         }
-        #header2{
-            background-color: #BB1919;
-            color:white;
-            font-size: 200%;
-            padding-left: 10%;
-            position:relative;
-            margin:0 0 0 0;
-        }
-
-        #header1 {
-            
+        
+        #topbar {
+            width:1200px;
+            margin: 0 auto;
+            height: 40px;
         }
 
-        #header3{
-            background-color:#A91717;
-            color: white;
+        #logo {
+            margin-top:8px;
+            width:100px;
+            float:left;
+            margin-right:8px;
         }
 
-        #header4{
-            color:#404040;
+        .topbar-section{
+            float:left;
+            border-left: 1px #CCCCCC solid;
+            height: 100%;
+        }
+
+        #signin-image {
+            width: 30px;
+            margin: 8px 10px;
+            float:left;
+        }
+
+        #sign-in-text {
             font-weight: bold;
-            font-size:150%;
+            font-size: 90%;
+            position:relative;
+            top:14px;
         }
 
-        #main-image{
-            position:relative;
-            float:right;
+        #sign-in-section {
+            margin-right:8px;
         }
 
-        #videos{
-            position:relative;
-            float:right;
+        #bell-img {            
+            width: 30px;
+            margin: 7px 10px;
+            float:left;
         }
+
+        .topbar-menu{
+            font-weight: bold;
+            font-size:90%;
+            padding: 13px 15px 0 15px;
+            height: 27px;
+        }
+
+        #more-arrow {
+            width:6px;
+            margin-left: 15px;
+        }
+
+        #search-box {
+            background-color:#A9A9A9;
+            border:none;
+            font-weight: bold;
+            font-size:14px;
+            padding:5px;
+            margin:5px 0 5px 5px;
+            float:left;
+        }
+
+        #magnifying-glass {
+            width:27px;
+            margin-left:0;
+            margin-top:5px;
+        }
+
         </style>
     </head>
 <body>
-    <div id = "header1">
-        <div class = "left-float">BBC </div>
-        <div class = "left-float">Sign In </div>
-        <div class = "left-float">Little Bell </div>
-        <div class = "left-float">News </div>
-        <div class = "left-float">Sport </div>
-        <div class = "left-float">Weather </div>
-        <div class = "left-float">iPlayer </div>
-        <div class = "left-float">TV </div>
-        <div class = "left-float">Radio </div>
-        <div class = "left-float">More </div>
-        <form class = "left-float"><input type="text" id = "search-box" placeholder="Search"></form>
-    </div>
-    <div id = "header2">
-        <p>
-            NEWS
-        </p>
-    </div>
-    <div id = "header3">
-        <div class = "left-float">Home</div>
-        <div class = "left-float">UK</div>
-        <div class = "left-float">World</div>
-        <div class = "left-float">Business</div>
-        <div class = "left-float">Politics</div>
-        <div class = "left-float">Tech</div>
-        <div class = "left-float">Science</div>
-        <div class = "left-float">Health</div>
-        <div class = "left-float">Family & Education</div>
-        <div class = "left-float">Entertainment & Arts </div>
-        <div class = "left-float">Stories</div>
-        <div class = "left-float">More</div>
-
-    </div>
-    <div id = "header4">
-        <p>Technology</p>
-    </div>
-    <div id="body">
-        <div id = "featured">
-            <div id="main-story">
-                <h2>Online Porn Age Checks Delayed in UK </h2>
-                <p>Age checks will not be introduced in April as intended but are still planned before the year's end. </p>
-                <p>little clock + 9 hours | Technology</p>
-                <img id = "main-image" src = "main-story.jpg" height="200px">
-            </div>
+    <div id = "topbar">
+        <img id = "logo" src = "bbc-logo.gif">
+        <div id = "sign-in-section" class = "topbar-section">
+            <img id = "signin-image" src = "sign-in-image.png">
+            <span id = "sign-in-text">Sign in</span>
         </div>
-        <div id = "videos">
-            <p><a href = "http://www.bbc.co.uk/news/av/uk-43379630/should-you-limit-your-children-s-time-on-fortnite">Should you limit kids' time on Fortnite?</a></p>
+        <div id = "bell-div" class = "topbar-section">
+            <img id = "bell-img" src = "bell.png">
+        </div>
+        <div class = "topbar-section topbar-menu">
+            News
+        </div>
+        <div class = "topbar-section topbar-menu">
+            Sport
+        </div>
+        <div class = "topbar-section topbar-menu">
+            Weather
+        </div>
+        <div class = "topbar-section topbar-menu">
+            iPlayer
+        </div>
+        <div class = "topbar-section topbar-menu">
+            TV
+        </div>
+        <div class = "topbar-section topbar-menu">
+            Radio
+        </div>
+        <div class = "topbar-section topbar-menu">
+            More
+            <img id = "more-arrow" src = "down-arrow.png">
+        </div>
+        <div class = "topbar-section">
+            <input id = "search-box" type = "text" value = "Search">
+            <img id = "magnifying-glass" src = "magnify.jpg">
         </div>
     </div>
+    
 </body>
 </html>
