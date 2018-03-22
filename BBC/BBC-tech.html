@@ -21,7 +21,7 @@
         }
 
         #logo {
-            margin-top:8px;
+            margin-top:3px;
             width:100px;
             float:left;
             margin-right:8px;
@@ -34,8 +34,8 @@
         }
 
         #signin-image {
-            width: 30px;
-            margin: 8px 10px;
+            height: 30px;
+            margin: 5px 10px 0 8px;
             float:left;
         }
 
@@ -51,8 +51,8 @@
         }
 
         #bell-img {            
-            width: 30px;
-            margin: 7px 10px;
+            height: 30px;
+            margin: 5px 10px 0 8px;
             float:left;
         }
 
@@ -84,6 +84,89 @@
             margin-top:5px;
         }
 
+        .clear{
+            clear:both;
+        }
+
+        #menu-bar-container{
+            background-color: #BB1919;
+            width:100%;
+            height:70px;
+            border-top:1px #CCCCCC solid;
+        }
+
+        #menu-bar {
+            width:1200px;
+            margin:0 auto;
+        }
+
+        h1{
+            padding:0;
+            margin:0;
+            color:white;
+            font-size:40px;
+            font-weight: normal;
+            padding-top:12px;
+            float:left;
+        }
+
+        #local-news-image {
+            width:30px;
+        }
+
+        #local-news{
+            float:right;
+            border: 1px  #BB4545 solid;
+            padding: 3px 5px 0px 5px;
+            margin:15px 10px 0 0 ;
+        }
+
+        #local-news a{
+            color:white;
+            position:relative;
+            text-decoration: none;
+            font-size:30px;            
+        }
+
+        #local-news a:hover {
+            text-decoration: underline;
+        }
+
+        #menu-bar-2-container {
+            background-color: #A91717;
+            width: 100%;
+        }
+
+        #menu-bar-2{
+            width:1200px;
+            margin:0 auto;
+            height:50px;
+        }
+
+        #menu-bar-2 a{
+            color:white;
+            text-decoration:none;
+            padding:0 10px;
+            border-right: 1px solid #BB4545;
+            font-size:14px;
+            position:relative;
+            top:14px;
+            height:100%;
+        }
+
+        #menu-bar-2 a:hover{
+            text-decoration: underline;
+        }
+
+        .no-border {
+            border:none !important;
+        }
+
+        #menu-bar-2 img{
+            height: 10px;
+            position: relative;
+            top: 14px;
+        }
         </style>
     </head>
 <body>
@@ -121,6 +204,36 @@
         <div class = "topbar-section">
             <input id = "search-box" type = "text" value = "Search">
             <img id = "magnifying-glass" src = "magnify.jpg">
+        </div>
+    </div>
+
+    <div class = "clear"></div>
+
+    <div id = "menu-bar-container">
+        <div id = "menu-bar">
+            <h1>NEWS</h1>
+            <div id = "local-news">
+                <a href = "">Find local news</a>
+                <img id = "local-news-image" src = "location.jpg">
+            </div>
+        </div>
+    </div>
+    <div class = "clear"></div>
+    <div id = "menu-bar-2-container">
+        <div id = "menu-bar-2">
+            <a href="">Home</a>
+            <a href="">UK</a>
+            <a href="">World</a>
+            <a href="">Business</a>
+            <a href="">Politics</a>
+            <a href="">Tech</a>
+            <a href="">Science</a>
+            <a href="">Health</a>
+            <a href="">Education</a>
+            <a href="">Entertainment & Arts</a>
+            <a href="">Video & Audio</a>
+            <a href="" class = "no-border">More</a>
+            <img src = "down-arrow.png">
         </div>
     </div>
     
