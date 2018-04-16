@@ -181,11 +181,12 @@
             top:2px;
         }
 
-        #tech-link{
-            color:#a91717;
-            text-decoration:none;
-            border-left: 1px solid #CCCCCC;
-            padding-left: 5px;
+        .tech-link{
+            color:#a91717 !important;
+            text-decoration:none !important;
+            border-left: 1px solid #CCCCCC !important;
+            padding-left: 5px !important;
+            font-weight: normal !important;
         }
 
         #article-summary a:hover {
@@ -210,12 +211,14 @@
         #video-section-container{
             float:left;
             margin-left:10px;
-            width:300px;
+            width:350px;
         }
 
         .video a{
             color:black;
             text-decoration:none;
+            font-weight: bold;
+            font-size: 17.5px;
         }
 
         .video a:hover{
@@ -223,10 +226,20 @@
         }
 
         .video img{
+            float:left;
         }
 
         .video-text{
-            padding-left:100px;
+            padding-left:140px;
+        }
+
+        .video-date{
+            color:#5a5a5a;
+            padding-left:140px;
+        }
+
+        .video-date img{
+            padding-right:5px;
         }
         </style>
     </head>
@@ -307,7 +320,7 @@
                 <h3><a href ="" id = "main-article-link">ASDA bug exposed payment details</a></h3>
                 <div id = "article-summary">
                     <p>Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.</p>
-                    <p><img src = "clock.png"> 19 January 2018  <a href = "" id = "tech-link">Technology</a></p>
+                    <p><img src = "clock.png"> 19 January 2018  <a href = "" class = "tech-link">Technology</a></p>
                     <hr id = "article-hr" align = "left">
                     <p><a href = "" class = "bottom-links">Surveilance firm hit in hack attack</a></p>
                     <p><a href = "" class = "bottom-links">eBay flaw has existed for months</a></p>
@@ -321,6 +334,20 @@
                 <img src = "video-1.png">
                 <div class = "video-text">
                     <p><a href = "">UK science chief backs blockchains</a></p>
+                </div>
+                <div class = "video-date">
+                    <img src = "clock.png">
+                    <p>19 January 2016</p>
+                </div>
+            </div>
+            <div class = "video"> 
+                <img src = "video-2.png">
+                <div class = "video-text">
+                    <p><a href = "">Drone register gives 'accountability'</a></p>
+                </div>
+                <div class = "video-date">
+                    <img src = "clock.png">
+                    <p>19 January 2016 <a href = "" class = "tech-link">Technology</a></p></p>
                 </div>
             </div>
         </div>
