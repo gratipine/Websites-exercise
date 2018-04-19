@@ -1,0 +1,238 @@
+body{
+            margin:0;
+            padding:0;
+            font-family:Helvetica, Arial, sans-serif;
+        }
+        
+        #topbar {
+            width:1200px;
+            margin: 0 auto;
+            height: 40px;
+        }
+        #logo {
+            margin-top:3px;
+            width:100px;
+            float:left;
+            margin-right:8px;
+        }
+        .topbar-section{
+            float:left;
+            border-left: 1px #CCCCCC solid;
+            height: 100%;
+        }
+        #signin-image {
+            height: 30px;
+            margin: 5px 10px 0 8px;
+            float:left;
+        }
+        #sign-in-text {
+            font-weight: bold;
+            font-size: 90%;
+            position:relative;
+            top:14px;
+        }
+        #sign-in-section {
+            margin-right:8px;
+        }
+        #bell-img {            
+            height: 30px;
+            margin: 5px 10px 0 8px;
+            float:left;
+        }
+        .topbar-menu{
+            font-weight: bold;
+            font-size:90%;
+            padding: 13px 15px 0 15px;
+            height: 27px;
+        }
+        #more-arrow {
+            width:6px;
+            margin-left: 15px;
+        }
+        #search-box {
+            background-color:#A9A9A9;
+            border:none;
+            font-weight: bold;
+            font-size:14px;
+            padding:5px;
+            margin:5px 0 5px 5px;
+            float:left;
+        }
+        #magnifying-glass {
+            width:27px;
+            margin-left:0;
+            margin-top:5px;
+        }
+        .clear{
+            clear:both;
+        }
+        #menu-bar-container{
+            background-color: #BB1919;
+            width:100%;
+            height:70px;
+            border-top:1px #CCCCCC solid;
+        }
+        #menu-bar {
+            width:1200px;
+            margin:0 auto;
+        }
+        h1{
+            padding:0;
+            margin:0;
+            color:white;
+            font-size:40px;
+            font-weight: normal;
+            padding-top:12px;
+            float:left;
+        }
+        #local-news-image {
+            width:30px;
+        }
+        #local-news{
+            float:right;
+            border: 1px  #BB4545 solid;
+            padding: 3px 5px 0px 5px;
+            margin:15px 10px 0 0 ;
+        }
+        #local-news a{
+            color:white;
+            position:relative;
+            text-decoration: none;
+            font-size:30px;            
+        }
+        #local-news a:hover {
+            text-decoration: underline;
+        }
+        #menu-bar-2-container {
+            background-color: #A91717;
+            width: 100%;
+        }
+        #menu-bar-2{
+            width:1200px;
+            margin:0 auto;
+            height:50px;
+        }
+        #menu-bar-2 a{
+            color:white;
+            text-decoration:none;
+            padding:0 10px;
+            border-right: 1px solid #BB4545;
+            font-size:14px;
+            position:relative;
+            top:14px;
+            height:100%;
+        }
+        #menu-bar-2 a:hover{
+            text-decoration: underline;
+        }
+        .no-border {
+            border:none !important;
+        }
+        #menu-bar-2 img{
+            height: 10px;
+            position: relative;
+            top: 14px;
+        }
+
+        #page-container {
+            width:1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            font-weight: normal;
+            font-size: 20px;
+            border-bottom: 2px solid #a91717;
+            width: 105px;
+        }
+
+        h3 a{
+            color:black;
+            font-size:30px;
+            text-decoration:none;
+        }
+
+        h3 a:hover {
+            color:#1167a8;
+        }
+
+        #article-container {
+            float:left;
+            width: 670px;
+            border-right:1px solid #CCCCCC;
+        }
+        #article-summary {
+            color:#5a5a5a;
+            width:240px;
+            float:left;
+        }
+
+        #article-summary img{
+            height:15px;
+            position:relative;
+            top:2px;
+        }
+
+        .tech-link{
+            color:#a91717 !important;
+            text-decoration:none !important;
+            border-left: 1px solid #CCCCCC !important;
+            padding-left: 5px !important;
+            font-weight: normal !important;
+        }
+
+        #article-summary a:hover {
+            color:#1167a8;
+        }
+
+        #main-article-id {
+            width:400px;
+            margin-left:20px;
+        }
+
+        #article-hr{
+            border:#a91717 1px solid;
+            width:50px;
+        }
+
+        .bottom-links{
+            text-decoration:none;
+            color:black;
+        }
+
+        #video-section-container{
+            float:left;
+            margin-left:10px;
+            width:350px;
+        }
+
+        .video-text a{
+            color:black;
+            text-decoration:none;
+            font-weight: bold;
+            font-size: 17.5px;
+        }
+
+        .video-text a:hover{
+            color:#1167a8;
+        }
+
+        .video img{
+            float:left;
+        }
+
+        .video-text{
+            padding-left:140px;
+        }
+
+        .video-date{
+            color:#5a5a5a;
+            padding-left:140px;
+        }
+
+        .video-date{
+            font-size: 15px !important; 
+        }
+
+        .video-date img{
+            padding-right:5px;
+        }
