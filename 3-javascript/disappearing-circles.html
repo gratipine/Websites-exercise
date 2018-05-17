@@ -1,0 +1,47 @@
+<html>
+    <title>Disappearing Circles Challenge</title>
+
+    <style type = "text/css">
+        #red-circle {
+            background: red;
+        }
+
+        #green-circle {
+            background: green;
+        }
+
+        #blue-circle {
+            background: blue;
+        }
+
+        .circle{
+            width: 50px;
+            height: 50px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+            float: left;
+            margin:10px;
+        }    
+    </style>
+    <body>
+
+        <div id = "red-circle" class = "circle"></div>
+        <div id = "green-circle" class = "circle"></div>
+        <div id = "blue-circle" class = "circle"></div>
+        <script type = "text/javascript">
+            document.getElementById("red-circle").onclick = function() {
+                document.getElementById("red-circle").style.display = "none"
+            }
+
+            document.getElementById("green-circle").onclick = function() {
+                document.getElementById("green-circle").style.display = "none"
+            }
+
+            document.getElementById("blue-circle").onclick = function() {
+                document.getElementById("blue-circle").style.display = "none"
+            }
+            
+        </script>
+    </body>
+</html>
