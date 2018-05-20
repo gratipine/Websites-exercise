@@ -1,0 +1,27 @@
+
+<html>
+    <head>
+        <title>Random Number</title>  
+    </head>
+
+    <body>
+        <p>How many fingers am I holding up?</p>
+        <input type = "text" id = "input-text">
+        <button id = "submit">Submit</button>
+        <script type="text/javascript">
+        /*Code changed - takes a random number between 0-10*/
+            var magicWord = Math.floor(Math.random() * 11);
+
+            document.getElementById("submit").onclick = function() {
+                var userInput = document.getElementById("input-text").value;
+
+                if(userInput == magicWord) {
+                    alert("You have guessed correctly");
+                } else {
+                    alert("Sorry, the number was " + magicWord);
+                }
+            }
+            console.log(magicWord);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+
+<html>
+    <head>
+        <title>Variables</title>  
+    </head>
+
+    <body>
+
+        <input type = "text" id = "textID">
+        <button id = "change">Change the x var</button>
+
+        <p id = "text-to-change">This is some text</p>
+        <script type="text/javascript">
+
+        document.getElementById("change").onclick = function() {
+            var changedText = "";
+            changedText = document.getElementById("textID").value;
+            document.getElementById("text-to-change").innerHTML = changedText;
+        };
+        </script>
+    </body>
+</html>

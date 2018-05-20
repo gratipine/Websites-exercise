@@ -1,0 +1,25 @@
+
+<html>
+    <head>
+        <title>If</title>  
+    </head>
+
+    <body>
+        <p>What is the magic word?</p>
+        <input type = "text" id = "input-text">
+        <button id = "submit">Submit</button>
+        <script type="text/javascript">
+            var magicWord = "The Power of Habits";
+
+            document.getElementById("submit").onclick = function() {
+                var userInput = document.getElementById("input-text").value;
+
+                if(userInput == magicWord) {
+                    alert("You have guessed correctly");
+                } else {
+                    alert("Sorry")
+                }
+            }
+        </script>
+    </body>
+</html>
