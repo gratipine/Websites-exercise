@@ -1,0 +1,42 @@
+
+<html>
+    <head>
+        <title>J-Query</title>  
+    </head>
+
+    <style type = "text/css">
+        #circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: green;
+            margin: 10px;
+        }
+
+        .square {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            margin: 10px;
+        }
+    </style>
+
+    <body>
+        <script type = "text/javascript" src="jquery.min.js"></script>
+
+            <div id = "circle"></div>
+            <div class = "square"></div>
+            <div class = "square"></div>
+            <script type = "text/javascript">
+                $("#circle").click(function(){
+                    alert('Oh no! Circle was clicked')
+                })
+                $(".square").click(function(){
+                    alert('Oh no! A square was clicked')
+                })
+                $("div").click(function(){
+                    alert('Oh no! A square was clicked')
+                })
+        </script>
+    </body>
+</html>
