@@ -1,0 +1,38 @@
+
+<html>
+    <head>
+        <title>J-Query</title>  
+    </head>
+
+    <style type = "text/css">
+        #circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: green;
+            margin: 10px;
+        }
+
+    </style>
+
+    <body>
+        <script type = "text/javascript" src="jquery.min.js"></script>
+
+            <div id = "circle"></div>
+
+            <p>This is some text</p>
+
+            <iframe id="myIframe" src = "https://www.codestars.com/summarypage/?id=764164-The-Complete-Web-Developer-Course-2.0"></iframe>
+            <script type = "text/javascript">
+            //    $("#circle").hover(function(){
+              //      alert("You are hovering!");
+               // })
+         
+                $("#circle").click(function(){
+                    $("p").html("This text has changed!");
+                    alert($("p").html());
+                    $('#myIframe').attr("src", "https://www.w3schools.com");
+                })
+        </script>
+    </body>
+</html>
