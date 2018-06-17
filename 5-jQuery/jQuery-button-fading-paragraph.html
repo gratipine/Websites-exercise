@@ -1,0 +1,31 @@
+
+<html>
+    <head>
+        <title>J-Query</title>  
+    </head>
+
+    <script type = "text/javascript" src="jquery.min.js"></script> 
+
+    <style type = "text/css">
+    </style>
+
+    <body>
+        <p id = "pim">There goes my teeeext, watch as it goes!</p>
+        <button id = "the-toggle-button">Toggle</button>
+        
+        
+
+        <script type = "text/javascript">
+
+        //You can Rewrite this using the variable and seeting it when changing the display
+        var textDisplayed = TRUE;
+            $("#the-toggle-button").click(function(){
+                if($("#pim").css("display") == "none") {
+                $("#pim").fadeIn();
+                } else {
+                    $("#pim").fadeOut();
+                };
+            });
+        </script>
+    </body>
+</html>
